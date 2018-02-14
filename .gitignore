@@ -1,0 +1,15 @@
+!build/
+build/*
+!build/Robo/
+!build/Utility/
+vendor/
+node_modules/
+.env
+etc/nginx.conf
+etc/ssl/*
+/config/app.php
+tmp/
+logs/
+webroot/uploads
+config/Migrations/schema-dump-default.lock
+config/Migrations/schema-dump-test.lock
