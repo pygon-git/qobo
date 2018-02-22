@@ -13,8 +13,4 @@ logs/
 webroot/uploads/
 config/Migrations/schema-dump-default.lock
 config/Migrations/schema-dump-test.lock
-<<<<<<< HEAD
-*.DS_Store
-=======
 .DS_Store
->>>>>>> 60183fb3b2dea40bb91975df2d0273d9c8f0a932
