@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "74b2077681989af2c76069137264a318",
-    "content-hash": "8501ab7762b617dbc15070d342a08bef",
+    "hash": "eb4e2e43ee8c74c910cffd3cf142c049",
+    "content-hash": "dac5d3a1a3a7a8b8fc24550b262a6332",
     "packages": [
         {
             "name": "admad/cakephp-jwt-auth",
@@ -3728,6 +3728,49 @@
                 "update"
             ],
             "time": "2017-12-11 14:49:29"
+        },
+        {
+            "name": "qobo/cakephp-calendar",
+            "version": "v3.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/QoboLtd/cakephp-calendar.git",
+                "reference": "05afbcc7282018462a5a7adcd094aeb40fce1dba"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/QoboLtd/cakephp-calendar/zipball/05afbcc7282018462a5a7adcd094aeb40fce1dba",
+                "reference": "05afbcc7282018462a5a7adcd094aeb40fce1dba",
+                "shasum": ""
+            },
+            "require": {
+                "qobo/cakephp-utils": "^6.0"
+            },
+            "require-dev": {
+                "cakephp/cakephp-codesniffer": "^3.0",
+                "phpunit/phpunit": "^5.0"
+            },
+            "type": "cakephp-plugin",
+            "autoload": {
+                "psr-4": {
+                    "Qobo\\Calendar\\": "src/",
+                    "Qobo\\Calendar\\Test\\Fixture\\": "tests\\Fixture"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Qobo Ltd",
+                    "email": "info@qobo.biz",
+                    "homepage": "https://www.qobo.biz",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Calendaring plugin for CakePHP",
+            "time": "2018-01-18 14:07:45"
         },
         {
             "name": "qobo/cakephp-csv-migrations",
